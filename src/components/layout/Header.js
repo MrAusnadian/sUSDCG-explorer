@@ -25,7 +25,7 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-            <a className="pure-menu-heading" href={`${process.env.PUBLIC_URL}/`}>Lightweight Ethereum Explorer</a>
+            <a className="pure-menu-heading" href={`${process.env.PUBLIC_URL}/`}>Sidechain USDC Gluwacoin Explorer</a>
             <ul className="pure-menu-list">
               <li>
                 <form onSubmit={this.onSubmit.bind(this)}>
