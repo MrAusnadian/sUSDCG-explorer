@@ -4,6 +4,7 @@
   "homepage": "https://alanverbner.github.io/lightweight-eth-explorer",
   "private": true,
   "dependencies": {
+    "abi-decoder": "^2.3.0",
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
