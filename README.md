@@ -1,6 +1,6 @@
-# Lightweight Ethereum Explorer
+# Lightweight sUSDC-G Explorer
 
-This is a lightweight ethereum explorer that runs without db. It just grabs data using web3.js
+This is a lightweight sUSDC-G explorer that runs without db. It just grabs data from Luniverse using web3.js
 
 ## Configuration
 1. Update `PROVIDER` const in `src\utils\web3-loader.js`
