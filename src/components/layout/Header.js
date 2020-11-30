@@ -44,6 +44,7 @@ class Header extends Component {
           </ul>
         </div>
       </div>
+      <div className=">&nbsp;</div>
     )
   }
 }
