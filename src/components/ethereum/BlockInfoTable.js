@@ -65,12 +65,7 @@ const BlockInfoTable = ({ block, latestBlockNumber }) => {
         </tr>
         <tr>
             <td>Data</td>
-            <td>{ block.extraData }</td>
-        </tr>
-
-        <tr>
-            <td>Data (Translated)</td>
-            <td>{ "//FIXME" }</td>
+            <td><textarea rows="5" cols="150" disabled="disabled">{ block.extraData }</textarea></td>
         </tr>
 
         <tr>
