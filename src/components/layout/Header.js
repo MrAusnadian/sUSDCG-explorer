@@ -44,7 +44,7 @@ class Header extends Component {
           </ul>
         </div>
       </div>
-      <div className=">&nbsp;</div>
+      <div className="spacer-div">&nbsp;</div>
     )
   }
 }
