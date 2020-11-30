@@ -29,8 +29,8 @@ class Header extends Component {
             <ul className="pure-menu-list">
               <li>
                 <form onSubmit={this.onSubmit.bind(this)}>
-                  <input id="search-box" name="q" size="40" type="text" placeholder="Tx Hash, Address, or Block #" onChange={evt => this.updateSearchStr(evt)}/>
-                  <input id="search-btn" value="Search" type="submit"/>
+                  <input id="search-box pure-input-rounded" name="q" size="40" type="text" placeholder="Tx Hash, Address, or Block #" onChange={evt => this.updateSearchStr(evt)}/>
+                  <input id="search-btn pure-input-rounded" value="Search" type="submit"/>
                 </form>
               </li>
             </ul>
