@@ -65,11 +65,11 @@ class Main extends Component {
     return (
       <div className="pure-g main-container">
         <div className="pure-u-1-1">
-          <h2><i className="fa fa-cube"></i>Latest Blocks</h2>
+          <h2><i className="fa fa-cube"></i> Latest Blocks</h2>
           <BlocksTable blocks={this.state.latestBlocks} />
         </div>
         <div className="pure-u-1-1">
-          <h2><i className="fa fa-exchange"></i>Latest Transactions</h2>
+          <h2><i className="fa fa-exchange"></i> Latest Transactions</h2>
           <TransactionsTable txs={this.state.latestTxs} />
         </div>
       </div>
