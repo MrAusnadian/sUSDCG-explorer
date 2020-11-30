@@ -3,6 +3,7 @@ import promisify from 'es6-promisify';
 
 import BlocksTable from '../ethereum/BlocksTable';
 import TransactionsTable from '../ethereum/TransactionsTable';
+console.log(require('dotenv').config());
 
 const MAX_HISTORY = 10;
 
