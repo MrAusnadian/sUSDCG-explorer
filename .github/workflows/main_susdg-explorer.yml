@@ -28,7 +28,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'susdg-explorer'
+        app-name: 'susdcg-explorer'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a6acb175e2594470a9763a876f8fa642 }}
         package: .
