@@ -1,6 +1,6 @@
 # Lightweight sUSDC-G Explorer
 
-This is a lightweight sUSDC-G explorer that runs without db. It just grabs data from Luniverse using web3.js
+This is a lightweight sUSDC-G explorer that runs without db. It just grabs data from Luniverse using web3.js. Based off code from https://github.com/AlanVerbner/lightweight-eth-explorer
 
 ## Getting Started
 1. Clone to local 
