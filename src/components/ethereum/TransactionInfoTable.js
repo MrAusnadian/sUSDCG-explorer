@@ -7,17 +7,23 @@ abiDecoder.addABI(JSON.parse(appSettings.SIDECHAIN_ABI));
 
 const BlockInfoTable = ({tx}) => {
   const data = tx.input;
-  const decodedData = abiDecoder.decodeMethod(data);
+  var decodedData = abiDecoder.decodeMethod(data);
   //console.log(decodedData.name);
   //console.log(decodedData.params);
   var x, txt = "";
-  for (x in decodedData.params){
-    txt += decodedData.params[x].name
-      + ": "
-      + decodedData.params[x].value
-      + " ("
-      + decodedData.params[x].type
-      + ")\n";
+  if(decodedData !== undefined){
+    for (x in decodedData.params){
+      txt += decodedData.params[x].name
+        + ": "
+        + decodedData.params[x].value
+        + " ("
+        + decodedData.params[x].type
+        + ")\n";
+    }
+  }
+  else {
+    decodedData = {name: "unknown"};
+    txt = "Could not decode the input data using the ABI provided.";
   }
 
   return (
